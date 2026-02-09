@@ -4,7 +4,7 @@ resource "opennebula_virtual_machine" "web_server" {
   template_id = var.template_base_id
 
   cpu    = 2
-  memory = 2048
+  memory = 1024
 
   # Conexión de red usando el bloque DATA 
   nic {
